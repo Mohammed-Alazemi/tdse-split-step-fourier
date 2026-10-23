@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+results/*.npz
+results/*.npy
+results/*.json
+.ipynb_checkpoints/
+.DS_Store
