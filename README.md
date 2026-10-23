@@ -12,9 +12,9 @@ Atomic units are used throughout (ħ = m = 1).
 
 The kinetic term is diagonal in momentum space and the potential is diagonal in position space. Each time step therefore does five things:
 
-1. Apply half a potential kick, e^{−iVΔt/2}.
+1. Apply half a potential kick, e<sup>−iVΔt/2</sup>.
 2. FFT to momentum space.
-3. Apply a full kinetic kick, e^{−ik²Δt/2}.
+3. Apply a full kinetic kick, e<sup>−ik²Δt/2</sup>.
 4. Inverse FFT back to position space.
 5. Apply the second half potential kick.
 
